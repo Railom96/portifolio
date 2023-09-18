@@ -10,7 +10,10 @@
 .container1 {
     height: 100vh;
     width: 100vw;
-    background-color: #1E1D1D;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
@@ -27,60 +30,62 @@
     text-align: right;
     justify-content: center;
     padding-right: 15%;
-    background-color: #E5E5E5;
+    background-color: #1E1D1D;
 }
 
 .navbar a {
     text-decoration: none;
-    color: #1E1D1D;
+    color: white;
     padding: 1%;
     font-size: large;
     font-weight:lighter;
 }
 
-.sobre {
-
-    width: 100%;
-    height: 92%;
+.foto{
     display: flex;
-    flex-direction: row;
-
-}
-
-.banner {
-    width: 40%;
-    display: flex;
-    align-items: center;
     justify-content: center;
-
 }
 
-.banner img {
-    width: 60%;
-    border-radius: 194.5px;
-
+.foto img {
+    border-radius: 135.5px;
+    width: 15%;
 }
 
-.ola {
-    width: 60%;
+.texto {
+    width: 80%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    justify-content: center;
-    font-weight: bold;
+    text-align: center;
 }
 
-.ola p, h1 {
-    color: white;
-}
-
-.ola-link {
+.skills {
     display: flex;
     flex-direction: row;
-    height: 20%;
+    justify-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 90%;
 }
 
-.ola-link img{
-    display: flex;
-    flex-direction: row;
+.barra {
+    width: 80px;
     height: 50%;
+    background-color: #ccc;
+    position: relative;
 }
+
+.porcentagem {
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    background-color: #1E1D1D;
+    width: 50%; /* Aqui você define a porcentagem desejada */
+}
+
+
+
+
+
+
