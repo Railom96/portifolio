@@ -10,7 +10,6 @@
 .container1 {
     height: 100vh;
     width: 100vw;
-    background-color: #1E1D1D;
 }
 
 .header {
@@ -27,12 +26,12 @@
     text-align: right;
     justify-content: center;
     padding-right: 15%;
-    background-color: #e5e5e5;
+    background-color: #1E1D1D;
 }
 
 .navbar a {
     text-decoration: none;
-    color: #1E1D1D;
+    color: #e5e5e5;
     padding: 1%;
     font-size: large;
     font-weight:lighter;
@@ -42,12 +41,34 @@
     display: flex;
     flex-direction: column;
     width: 90%;
+    height: 20%;
     align-items: left;
     margin-left: 10%;
 
 }
 
 .descricao h1, p {
-    color: #e5e5e5;
+    color: #1E1D1D;
 }
 
+.portifolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 50%;
+}
+.projeto {
+    text-align: center; 
+}
+
+.projeto a {
+    text-decoration: none;
+    color: #333; 
+    display: block;
+}
+
+.projeto img {
+    max-width: 100px; 
+    margin: 0 auto; 
+}
