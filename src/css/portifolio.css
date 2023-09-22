@@ -54,9 +54,14 @@
 .portifolio {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-evenly; 
     align-items: center; 
-    width: 50%;
+    width: 60%;
+    height: 50%;
+    margin-top: 3%;
+    margin-left: 20%;
+    background-color: #f3ebeb;
+    border-radius: 15px;
 }
 .projeto {
     text-align: center; 
